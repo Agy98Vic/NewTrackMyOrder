@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewTrackMyOrder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="show_directions">Directions</string>
+    <string name="google_app_id">47138010508</string>
+
+
+</resources>
