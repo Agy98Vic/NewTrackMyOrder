@@ -1,12 +1,14 @@
 package com.example.newtrackmyorder;
 
+import static com.example.newtrackmyorder.R.id.user_login_button;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.challengers.trackmyorder.util.Constants;
+import com.example.newtrackmyorder.util.Constants;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,7 +30,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private Object findViewById(int user_login_button) {
+    private void setContentView(int activity_main) {
+    }
+
+    private void startActivity(Intent intent) {
+    }
+
+    private void findViewById(int user_login_button) {
     }
 
     public void deliveryBoy(View v) {

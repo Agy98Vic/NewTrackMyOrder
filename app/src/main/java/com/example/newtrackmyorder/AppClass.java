@@ -8,7 +8,6 @@ import com.example.newtrackmyorder.model.Order;
 import com.example.newtrackmyorder.model.User;
 import com.example.newtrackmyorder.util.Constants;
 import com.example.newtrackmyorder.util.Prefs;
-import com.firebase.client.Firebase;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,18 +7,15 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import androidx.core.app.ActivityCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.challengers.trackmyorder.util.Constants;
-import com.challengers.trackmyorder.util.Prefs;
+import androidx.core.app.ActivityCompat;
+
 import com.example.newtrackmyorder.service.LocationUpdateService;
-import com.firebase.client.DataSnapshot;
-import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseError;
-import com.firebase.client.ValueEventListener;
+import com.example.newtrackmyorder.util.Constants;
+import com.example.newtrackmyorder.util.Prefs;
 
 public class DboyActivity extends AppCompatActivity {
 

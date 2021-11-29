@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626843739356",
+    "project_id": "track-my-parcel-8cbc7",
+    "storage_bucket": "track-my-parcel-8cbc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626843739356:android:e137eecf3e77ee0d8d8019",
+        "android_client_info": {
+          "package_name": "example.tracker_parcel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626843739356-hovj6j4gb266uklghda60udfnn90irst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1q3zyXzmlP0P4slAT5ZY18pttNnZcwww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626843739356-hovj6j4gb266uklghda60udfnn90irst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

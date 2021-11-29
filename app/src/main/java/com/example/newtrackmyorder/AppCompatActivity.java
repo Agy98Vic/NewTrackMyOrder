@@ -10,6 +10,6 @@ public class AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
     }
 
-    protected boolean onOptionsItemSelected(MenuItem item) {
+    protected void onOptionsItemSelected(MenuItem item) {
     }
 }

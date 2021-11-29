@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.example.newtrackmyorder.util.Constants;
 import com.example.newtrackmyorder.util.Prefs;
-import com.firebase.client.FirebaseError;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.ktx.Firebase;

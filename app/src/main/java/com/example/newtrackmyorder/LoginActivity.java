@@ -2,7 +2,7 @@ package com.example.newtrackmyorder;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -23,7 +23,16 @@ public class LoginActivity extends AppCompatActivity {
         loginType = getIntent().getStringExtra(Constants.LOGINTYPE);
     }
 
-    private Object findViewById(int userName) {
+    private Intent getIntent() {
+    }
+
+    private void setTitle(String login) {
+    }
+
+    private void setContentView(int activity_login_dboy) {
+    }
+
+    private void findViewById(int userName) {
     }
 
     public void doLogin(View v){
