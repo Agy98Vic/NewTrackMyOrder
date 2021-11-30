@@ -1,7 +1,6 @@
 package com.example.newtrackmyorder.model;
 
-import io.realm.RealmObject;
-import io.realm.annotations.PrimaryKey;
+import androidx.room.PrimaryKey;
 
 
 public class Order extends RealmObject{

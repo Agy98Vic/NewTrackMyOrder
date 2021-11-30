@@ -13,10 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import io.realm.Realm;
-import io.realm.RealmConfiguration;
 
 
-public class AppClass extends Application {
+public class AppClass<RealmConfiguration> extends Application {
     private Object Realm;
 
     @Override
@@ -111,6 +110,7 @@ public class AppClass extends Application {
         user3.setUserId("user104");
         user3.setUsername("Chandan");
         user3.setCurrentOrderId(order3.getOrderId());
+
 
         realm.beginTransaction();
         realm.copyToRealmOrUpdate(delBoy);
